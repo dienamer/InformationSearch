@@ -27,5 +27,13 @@ url='''173.201.192.129
 173.201.192.158 
 97.74.135.10 
 97.74.135.143'''
-a=url.split()
-print(a)
+# a=['url1','url2','url3']
+# b={'url','ip'}
+# c=[['111.111','222.222'],['1233.3','123.4']]
+# d=dict.fromkeys(b,c)
+# e=dict.fromkeys(a,d)
+# print(e.get('url1').get('url'))
+a=[[123],[321],[333,444,555]]
+for list in a:
+    if 555 in list:
+        print('ok')
